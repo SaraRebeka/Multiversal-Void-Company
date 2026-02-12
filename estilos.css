@@ -164,6 +164,7 @@ footer {
   color: #666;
   margin-top: auto; /* para ficar na base */
 }
+
 /* Espaçamento inferior dos parágrafos dentro de seções na página de serviços */
 .container section p {
   margin-bottom: 1.5rem; /* ou o valor que preferir, ex: 24px */
@@ -278,4 +279,15 @@ footer {
   content: "🪐";
   position: absolute;
   left: 0;
+}
+.Baixo{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 25px;
+  padding: 25px;
+}
+
+.Baixo a{
+  color: #ccc;
 }
