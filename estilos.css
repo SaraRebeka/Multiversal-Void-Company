@@ -37,7 +37,7 @@ body {
 /* CABEÇALHO */
 header {
   text-align: center;
-  animation: neon-glow 1.5s infinite alternate;
+  animation: neon-glow forwards;
   margin-bottom: 30px;
 }
 
@@ -125,13 +125,10 @@ button:focus {
   outline: none;
 }
 
-/* ANIMAÇÃO NEON */
+/* NEON */
 @keyframes neon-glow {
-  from {
+  to{
     text-shadow: 0 0 10px #e100ff, 0 0 20px #e100ff, 0 0 30px #e100ff;
-  }
-  to {
-    text-shadow: 0 0 20px #e100ff, 0 0 40px #e100ff, 0 0 60px #e100ff;
   }
 }
 
